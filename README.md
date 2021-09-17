@@ -15,4 +15,12 @@ print_board(board)
 # To remove the "" and combine the O's replace print row with print " ".join(row)
 
 def random_row(board_in):
+   return radiant(0,len(board_in)-1):
+   
+
 def random_col(board_in):
+  return radiant(0,len(board_in)-1) 
+  
+  
+ random_row(board)
+ random_col(board) 
