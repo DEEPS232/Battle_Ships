@@ -25,8 +25,10 @@ def random_col(board_in):
  random_row(board)
  random_col(board) 
 
-
-
+#The following pirnt statments allow us to see where our ship has been hidden, we then delete these once we have established the ships position. 
+print ship_row
+print ship_col
+########
 #Will give us the ability to now guess the coordinates.
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
