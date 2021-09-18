@@ -22,5 +22,13 @@ def random_col(board_in):
   return radiant(0,len(board_in)-1) 
   
   
- random_row(board)
- random_col(board) 
+print ship_row
+print ship_col
+
+# Write your code below!
+if guess_row == ship_row and guess_col == ship_col:
+  print "Congratulations! You sank my battleship!"
+else:
+  print "You missed my battleship!"
+board[guess_row][guess_col]= "X"
+print_board(board)
