@@ -20,8 +20,6 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-print ship_row # Remove this to not reveal the answer 
-print ship_col #Remove this to not reveal the answer
 
 for turn in range(4):
   print "Turn", turn + 1
